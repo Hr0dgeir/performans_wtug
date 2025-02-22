@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Performans_WTUG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12fbaaa74f2c09a190293670638b60d0c48f4cee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85173cbadc2d1840437cc6c424f1801c2588678f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Performans_WTUG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Performans_WTUG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
