@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MVCye_genel_bakis.Models;
 
 namespace MVCye_genel_bakis.Controllers
 {
@@ -8,6 +9,12 @@ namespace MVCye_genel_bakis.Controllers
             return View();
         }
         public IActionResult Apply(){
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Apply([FromForm] Candidate model){
             return View();
         }
     }
