@@ -16,7 +16,7 @@ namespace MVCye_genel_bakis.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Apply([FromForm] Candidate model){
             Repository.Add(model);
-            return Redirect("/");
+            return View("Feedback",model);
         }
     }
 }
