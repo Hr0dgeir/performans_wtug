@@ -14,16 +14,13 @@ namespace Name.Controllers
         }
 
         public IActionResult Index(){
-
-            /*
-            var context = new RepositoryContext(
-                new DbContextOptionsBuilder<RepositoryContext>()
-                .UseSqlite("Data Source = C:\\MVC\\ProductDb.db")
-                .Options);
-            */
-
             var model = _context.Products.ToList();
             return View(model);
+        }
+
+        public IActionResult Get(int id){
+            Product prd = _context.Products.First(p => p.ProductId.Equals(id));
+            return View(prd);
         }
     }
 }
