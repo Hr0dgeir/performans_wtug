@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Veri_Odakli_Gelistirme.props" />
+</Project>
