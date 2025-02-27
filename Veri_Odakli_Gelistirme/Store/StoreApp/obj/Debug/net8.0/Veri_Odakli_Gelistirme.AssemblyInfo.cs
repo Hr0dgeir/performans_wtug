@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Veri_Odakli_Gelistirme")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+238a52b22e2e3ede223c51f376b2c8babeb99f41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d43adf3b267e7629d094a1b95b1b579c3b87c573")]
 [assembly: System.Reflection.AssemblyProductAttribute("Veri_Odakli_Gelistirme")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Veri_Odakli_Gelistirme")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
