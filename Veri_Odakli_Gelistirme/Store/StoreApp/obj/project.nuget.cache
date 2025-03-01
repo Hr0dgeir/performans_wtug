@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J2c/aQ2uiZA=",
+  "dgSpecHash": "B6aXoofFIWQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\store\\storeapp\\Veri_Odakli_Gelistirme.csproj",
+  "projectFilePath": "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\Store\\StoreApp\\Veri_Odakli_Gelistirme.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m3rt1\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\m3rt1\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

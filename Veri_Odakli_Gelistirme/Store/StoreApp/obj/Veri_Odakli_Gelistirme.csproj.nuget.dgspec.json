@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\store\\storeapp\\Veri_Odakli_Gelistirme.csproj": {}
+    "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\Store\\StoreApp\\Veri_Odakli_Gelistirme.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\store\\storeapp\\Veri_Odakli_Gelistirme.csproj": {
+    "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\Store\\StoreApp\\Veri_Odakli_Gelistirme.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\store\\storeapp\\Veri_Odakli_Gelistirme.csproj",
+        "projectUniqueName": "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\Store\\StoreApp\\Veri_Odakli_Gelistirme.csproj",
         "projectName": "Veri_Odakli_Gelistirme",
-        "projectPath": "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\store\\storeapp\\Veri_Odakli_Gelistirme.csproj",
+        "projectPath": "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\Store\\StoreApp\\Veri_Odakli_Gelistirme.csproj",
         "packagesPath": "C:\\Users\\m3rt1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\store\\storeapp\\obj\\",
+        "outputPath": "C:\\Users\\m3rt1\\Desktop\\Performans_WTUG\\Veri_Odakli_Gelistirme\\Store\\StoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
