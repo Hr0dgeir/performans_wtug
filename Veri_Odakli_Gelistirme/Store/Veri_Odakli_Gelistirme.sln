@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veri_Odakli_Gelistirme", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veri_Odakli_Gelistirme", "..\Entities\Veri_Odakli_Gelistirme.csproj", "{C641C15D-69C6-4846-900A-08551A6A97FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{87474943-44F5-4437-8FF1-0B45C042C911}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C641C15D-69C6-4846-900A-08551A6A97FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C641C15D-69C6-4846-900A-08551A6A97FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C641C15D-69C6-4846-900A-08551A6A97FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87474943-44F5-4437-8FF1-0B45C042C911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87474943-44F5-4437-8FF1-0B45C042C911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87474943-44F5-4437-8FF1-0B45C042C911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87474943-44F5-4437-8FF1-0B45C042C911}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
