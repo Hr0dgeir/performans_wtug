@@ -15,4 +15,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Entities\Veri_Odakli_Gelistirme.csproj" />
+  </ItemGroup>
+
 </Project>
