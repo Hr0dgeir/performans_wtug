@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Entities.Models; 
+using Entities.Models;
+using System.Reflection.Emit;
 
 namespace StoreApp.Models
 {
@@ -12,7 +13,7 @@ namespace StoreApp.Models
 
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModuleBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Product>()
@@ -24,5 +25,11 @@ namespace StoreApp.Models
                 new Product() { ProductId = 5, ProductName = "Deck", Price = 1500 }
             );
         }
+
+        internal IQueryable<T> Set<T>()
+        {
+            throw new NotImplementedException();
+        }
     }
+
 }

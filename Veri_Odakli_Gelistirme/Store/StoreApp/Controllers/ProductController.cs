@@ -3,26 +3,27 @@ using Microsoft.EntityFrameworkCore;
 using StoreApp.Models;
 using Entities.Models;
 using Repositoreis;
+using Repositories.Contracts
 
 namespace Name.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly RepositoryContext _context;
+        private readonly IRepositoryManager _manager
 
-        public ProductController(RepositoryContext context)
+        public ProductController(IRepositoryManager manager)
         {
-            _context = context;
+            _manager = manager;
         }
 
         public IActionResult Index(){
-            var model = _context.Products.ToList();
+            var model = _manager.Product.GetAllProducts(false).ToList();
             return View(model);
         }
 
         public IActionResult Get(int id){
-            Product prd = _context.Products.First(p => p.ProductId.Equals(id));
-            return View(prd);
+            //Product prd = _context.Products.First(p => p.ProductId.Equals(id));
+            throw new NotImplementedExpection();
         }
     }
 }

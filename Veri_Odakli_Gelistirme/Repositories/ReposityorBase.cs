@@ -1,6 +1,9 @@
+using Repositories.Contracts;
+using StoreApp.Models;
+
 namespace Repositories
 {
-    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class, new(){
+    public abstract class RepositoryBase<T> : IRepositotyBase<T> where T : class, new(){
         protected readonly RepositoryContext _context;
 
         protected RepositoryBase(RepositoryContext context){
@@ -8,7 +11,7 @@ namespace Repositories
         }
 
         public IQueryable<T> FindAll(bool trachChanges){
-            return trachChanges ? _context.Set<T>() : _context.Set<T>().AsNoTracking();
+            return !trachChanges ? _context.Set<T>().AsNoTracking() : _context.Set<T>();
         }
     }
 }
